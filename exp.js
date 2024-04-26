@@ -1,4 +1,5 @@
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const arrayContains = (arr, element) => arr.includes(element);
-const isArray = (arr) => Array.isArray(arr);
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+var arr3 = "jones".split('');
+var pattern = {};
