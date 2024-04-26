@@ -1,2 +1,2 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+console.log(typeof typeof 1);
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
