@@ -1,3 +1,3 @@
-const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
-const appName = getAppName(channel);
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+console.log("1 || 2 = "+(1 || 2));
+const isEven = (num) => num % 2 === 0;
+const merge = [...new Set(a.concat(b))];
