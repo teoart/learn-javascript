@@ -1,3 +1,3 @@
-const getRandomBoolean = () => Math.random() >= 0.5;
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-const currentDate = () => new Date().toLocaleDateString('en-US');
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+const lastElement = arr => arr[arr.length - 1];
+console.log(false == '0');
