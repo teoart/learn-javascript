@@ -1,2 +1,2 @@
-const buildOutputPath = path.join(repositoryRootPath, 'out');
-const updated = numbers.filter(element => element > 6);
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const channel = getChannel(computedAppVersion);
