@@ -1,2 +1,2 @@
-const isEven = (num) => num % 2 === 0;
-const isWeekday = (date) => date.getDay() % 6 !== 0;
+const results = await Promise.all(resultingPromises);
+var c = new Counter(); c.add(); c.add(); c.add();
