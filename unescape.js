@@ -1,2 +1,3 @@
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const channel = getChannel(computedAppVersion);
+var pattern = {};
+const removeDuplicates = (arr) => [...new Set(arr)];
+var arr1 = "john".split('');
