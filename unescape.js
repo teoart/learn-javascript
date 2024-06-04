@@ -1,3 +1,2 @@
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
 const merge = [...new Set([...a, ...b])];
-const repositoryRootPath = path.resolve(__dirname, '..');
