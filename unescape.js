@@ -1,2 +1,1 @@
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-const merge = [...new Set([...a, ...b])];
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
