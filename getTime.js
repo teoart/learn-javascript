@@ -1,2 +1,3 @@
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
+console.log(false === '0');
+console.log( "A" - "B" + "2");
+const goToTop = () => window.scrollTo(0, 0);
