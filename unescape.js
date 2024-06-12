@@ -1,3 +1,3 @@
-const isEmptyArray = arr => !arr.length;
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-console.log(false === '0');
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+var arr2 = arr1.reverse();
