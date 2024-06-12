@@ -1,3 +1,3 @@
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
-console.log(1 +  "2" + "2");
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const isEmptyArray = arr => !arr.length;
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
