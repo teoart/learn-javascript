@@ -1,2 +1,1 @@
-function myAPITS(someString: string, someNum: number) { ... };
-const isTabInView = () => !document.hidden;
+const arrayContains = (arr, element) => arr.includes(element);
