@@ -1,3 +1,3 @@
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const randomBoolean = () => Math.random() >= 0.5;
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+var c = new Counter(); c.add(); c.add(); c.add();
+console.log("1 || 2 = "+(1 || 2));
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
