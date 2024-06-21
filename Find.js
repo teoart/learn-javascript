@@ -1,2 +1,1 @@
-console.log(1 +  +"2" + "2");
-const uniqueArray = arr => [...new Set(arr)];
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
