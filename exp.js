@@ -1,2 +1,3 @@
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
-console.log(+"1" +  "1" + "2");
+const allResults = await Promise.all(items.map(async (item) => {}));
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+var c = new Counter(); c.add(); c.add(); c.add();
