@@ -1,1 +1,2 @@
-const results = await Promise.all(resultingPromises);
+var arr1 = "john".split('');
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
