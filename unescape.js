@@ -1,3 +1,1 @@
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const value = ( 5 < 7 ) ? "True" : "False" ;
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
