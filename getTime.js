@@ -1,2 +1,2 @@
-var arr1 = "john".split('');
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+console.log(false == '0');
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
