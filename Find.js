@@ -1,2 +1,2 @@
-const lastElement = arr => arr[arr.length - 1];
-const scriptRootPath = path.join(repositoryRootPath, 'script');
+const isEven = (num) => num % 2 === 0;
+const uniqueArr = (arr) => [...new Set(arr)];
