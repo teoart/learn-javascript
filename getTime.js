@@ -1,1 +1,1 @@
-const appName = getAppName(channel);
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
