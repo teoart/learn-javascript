@@ -1,2 +1,3 @@
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+console.log(1 +  +"2" + "2");
