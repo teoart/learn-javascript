@@ -1,3 +1,2 @@
-const minNumber = arr => Math.min(...arr);
-const appName = getAppName(channel);
-var DELIM_SIZE = 4;
+console.log( "A" - "B" + 2);
+const getRandomBoolean = () => Math.random() >= 0.5;
