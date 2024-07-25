@@ -1,3 +1,2 @@
-const stringReverse = str => str.split("").reverse().join("");
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-const isEmptyArray = arr => !arr.length;
+const channel = getChannel(computedAppVersion);
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
