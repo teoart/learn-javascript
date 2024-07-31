@@ -1,2 +1,2 @@
-console.log(false == '0');
-const stringReverse = str => str.split("").reverse().join("");
+const isTabInView = () => !document.hidden;
+console.log(1 +  -"1" + "2");
