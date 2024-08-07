@@ -1,2 +1,3 @@
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-console.log("1 && 2 = "+(1 && 2));
+const channel = getChannel(computedAppVersion);
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
