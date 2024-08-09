@@ -1,3 +1,2 @@
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const results = await Promise.all(resultingPromises);
-const symbolsPath = path.join(buildOutputPath, 'symbols');
+const isEmptyObject = obj => Object.keys(obj).length === 0;
+const isEven = (num) => num % 2 === 0;
